@@ -1,0 +1,87 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Mee7 Funny hub V1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab1 = Window:MakeTab({
+
+	Name = "Nice scripts",	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+local Tab2 = Window:MakeTab({
+
+	Name = "Games",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+local Tab3 = Window:MakeTab({
+
+	Name = "Credits/Warnings",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab1:AddButton({
+
+	Name = "Infinite yield",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+  	end    
+
+})
+
+Tab1:AddButton({
+
+	Name = "Rewind script (FE) ",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/L"))()
+
+  	end    
+
+})
+
+Tab2:AddButton({
+
+	Name = "Ice hub Brookhaven",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+
+  	end
+
+})
+
+Tab2:AddButton({
+
+	Name = "Doors Op Gui (old but really nice) ",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+
+  	end
+
+})
+
+Tab3:AddLabel("Hub made by Mee7. (just me) ")
+
+Tab3:AddLabel("In the full version you will have more things. ")
+
+Tab3:AddLabel("My discord: (at the moment I'm not able to use discord) ")
+
+Tab3:AddLabel("My YouTube channel: @Mee7Scripts")
